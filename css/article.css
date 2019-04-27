@@ -1,0 +1,53 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2015-06-24
+Version:1.0.0
+**************************************/	
+.article_title{
+	position:relative;
+	width:100%;
+	height:503px;
+	}
+	
+.article_title > img{
+	width:100%;
+	height:503px;
+	}
+	
+.article_title > .title_content{
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:rgba(0,0,0,0.5);
+	width:100%;
+	}
+	
+.article_title > .title_content > h1{
+	padding:15px 10px;
+	color:#fff;
+	font-weight:normal;
+	}
+	
+.article_content{
+	position: relative;
+	overflow: hidden;
+	padding: 20px;
+	}
+
+.article_content > p{
+	text-indent:2em;
+	margin-bottom:20px;
+	}
+	
+.article_content > span{
+	float:right;
+	}
+	
+.article_content a{
+	color:red;
+	}
+	
+table{
+	width:100%;
+	}

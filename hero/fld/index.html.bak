@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>《怪咖联盟》弗莱迪介绍</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="《怪咖联盟》弗莱迪介绍">
+    <meta name="keywords" content="《怪咖联盟》是一款游戏集竞技策略与即时RPG为一体的手游，为玩家创造不一样的游戏体验!">
+    <meta name="author" content="xLong">
+    <meta name="designer" content="xLong">
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+    <link href="../../css/heroinfo-style.css" rel="stylesheet">
+    <style>
+	.skin_select .pic_nav_thumbnails li.active img{border: 2px solid #71b1f2;}
+	.ability_box li.active{background-position:-150px 0;}
+	.now_page{color:#71b1f2;}
+	.card_sliderbox li.active{border: 2px solid #71b1f2;}
+	.card_sliderbox li:hover{border: 2px solid #71b1f2;}
+	.nav_next{background-position: -156px 68px;}
+	.nav_prev{background-position: -133px 68px;}
+	.nav_bg .nav_bg_i{background-position: -194px 8px;}
+	.popupbox{border:10px solid #71b1f2;}
+	.pop_close{color:#71b1f2;}
+	</style>
+    <!--[if IE]>
+        <script type="text/javascript" src="../../js/for_ie.js"></script>
+    <![endif]-->
+    
+    </head>
+	<body>
+    	<!--header start-->
+        <header class="header">
+        	<div class="head_container">
+                <div class="logo_spr header_game"></div>
+                <!--header_nav start-->
+                <nav class="header_nav">
+                    <a href="../../index.html" name="官网首页">官网首页</a>
+                    <a href="../../news/index.html" name="新闻资讯">新闻资讯</a>
+                    <a href="../index.html" name="英雄库">英雄库</a>
+                    <a href="../../video/index.html" name="视频中心">视频中心</a>
+                    <a href="../../picture/index.html" name="精彩原画">精彩原画</a>
+                </nav>
+                <!--header_nav end-->
+            </div>
+            <div class="header_bg"></div>
+        </header>
+        <!--header end-->
+    	<!--pic_wrap start-->
+        <div class="pic_wrap" id="pic_wrap_focus">
+        	<!--pic_wrap_big start-->
+            <div class="pic_wrap_big">
+                <ul>
+                    <li class="active" style="opacity:1; filter:alpha(opacity=100);"><img class="inbetweening" title="弗莱迪_蒸汽先驱" src="../images/skin/7000_5000.jpg"/></li>
+                    <li><img class="inbetweening" title="弗莱迪_重炮先驱" src="../images/skin/7000_5500.jpg" /></li>
+                </ul>
+            </div>
+            <!--pic_wrap_big end-->
+            <div class="info_bg"></div>
+            <!--heroinfo_box start-->
+            <div class="heroinfo_box">
+            	<div class="hero_info">
+                	<div class="hero_name">弗莱迪</div>
+                    <div class="hero_character">控场型辅助</div>
+                   	<div class="hero_desc">专业抓人，游走型输出，大招突进控场。</div>
+                    <div class="hero_video">
+                        <span class="icon_play icons_spr"></span>
+                    </div>
+                    <ul class="hero_ability">
+                        <li>
+                            <label>攻击</label><span><i style="width:50%;"></i></span>
+                        </li>
+                        <li>
+                            <label>HP</label><span><i style="width:50%;"></i></span>
+                        </li>
+                        <li>
+                            <label>速度</label><span><i style="width:50%;"></i></span>
+                        </li>
+                    </ul>
+                    <div class="skin_select">
+                        <div class="pic_nav_thumbnails" id="img">
+                            <div class="skin_name">皮肤 <label>蒸汽先驱</label></div>            		
+                            <ul class="pic_sliderbox">
+                                <li class="active">
+                                    <img title="蒸汽先驱" src="../images/thumbnails/icon_hero_7000.jpg"/>
+                                </li>
+                                <li>
+                                    <img title="重炮先驱" src="../images/thumbnails/icon_hero_7000_2.jpg" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--heroinfo_box end-->
+            <!--ability_box start-->
+            <div class="ability_box">
+            	<ul>
+                	<!--skill-1-->
+                	<li>
+                    	<img src="../images/skill/icon_skill_8088.png" />                        
+                        <div class="ability_desc">
+                        	<div class="desc_text">
+                            	<div class="ability_name">电磁漩涡</div>
+                                <div class="ability_effect">拉人、附带沉默效果</div>
+                                <div class="ability_info">                                	
+                                    冷却:14/13/12/11/10秒消耗MP:80/85/90/95/100。蒸汽先驱启动涡轮增压器，发射电磁漩涡，把第一个被击中的目标拉到身边，并使其沉默2/2.5/3/3.5/4秒。
+                                </div>
+                                <div class="ability_about">
+                                	<div class="title">属性相关</div>
+                                    冷却:0秒
+                                    <br />
+                                    消耗MP:1秒
+                                </div>
+                            </div>
+                        	<div class="desc_bg">
+                            </div>
+                        </div>
+                    </li>
+                    <!--skill-2-->
+                    <li>
+                    	<img src="../images/skill/icon_skill_8089.png" />
+                        <div class="ability_desc">
+                        	<div class="desc_text">
+                            	<div class="ability_name">蒸汽飞拳</div>
+                                <div class="ability_effect">范围伤害</div>
+                                <div class="ability_info">                                	
+                                    冷却:12/11/10/9/8秒，消耗MP:60/65/70/75/80。蒸汽先驱熟练的飞出来回2次钢拳，对前方（非指向）（8M）所有敌人（穿透）造成(75/100/125/150/175)+0.6AP点物理伤害。
+                                </div>
+                                <div class="ability_about">
+                                	<div class="title">属性相关</div>
+                                    冷却:0秒
+                                    <br />
+                                    消耗MP:1秒
+                                    <br />
+                                    物理伤害
+                                    <br />
+                                    魔攻加成
+                                </div>
+                            </div>
+                        	<div class="desc_bg">
+                            </div>
+                        </div>
+                    </li>
+                    <!--skill-3-->
+                    <li>
+                    	<img src="../images/skill/icon_skill_8090.png" />
+                        <div class="ability_desc">
+                        	<div class="desc_text">
+                            	<div class="ability_name">蒸汽导弹</div>
+                                <div class="ability_effect">范围伤害</div>
+                                <div class="ability_info">                                	
+                                    冷却:15/14/13/12/11秒，消耗MP:60/65/70/75/80。蒸汽先驱从背后发射出4枚鲨鱼导弹，对前方（非指向）（8M）目标造成范围（5M）(50/60/70/80/90)+0.8AP点魔法伤害。
+                                </div>
+                                <div class="ability_about">
+                                	<div class="title">属性相关</div>
+                                    冷却:0秒
+                                    <br />
+                                    消耗MP:1秒
+                                    <br />
+                                    魔法伤害
+                                    <br />
+                                    魔攻加成
+                                </div>
+                            </div>
+                        	<div class="desc_bg">
+                            </div>
+                        </div>
+                    </li>
+                    <!--skill-4-->
+                    <li>
+                    	<img src="../images/skill/icon_skill_8091.png" />
+                        <div class="ability_desc">
+                        	<div class="desc_text">
+                            	<div class="ability_name">百万伏电压</div>
+                                <div class="ability_effect">突进、范围伤害、附带眩晕效果</div>
+                                <div class="ability_info">                                	
+                                    冷却:70/60/50秒，消耗MP:150/200/250。蒸汽先驱集聚能量，冲向（指向）（7M）目标释放百万伏电压，对范围（5M）的所有敌人造成(150/250/350)+1.2AP点魔法伤害，并眩晕1.5/1.75/2秒。
+                                </div>
+                                <div class="ability_about">
+                                	<div class="title">属性相关</div>
+                                    冷却:0秒
+                                    <br />
+                                    消耗MP:1秒
+                                    <br />
+                                    魔法伤害
+                                    <br />
+                                    魔攻加成
+                                </div>
+                            </div>
+                        	<div class="desc_bg">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--ability_box end-->  
+            <!--pic_select_nav start-->
+            <div class="pic_select_nav">
+            	<div class="nav_container">
+                    <div class="nav_page"><span class="now_page">0</span>&nbsp;/&nbsp;<span class="all_page">0</span>&nbsp;页</div>
+                    <!--nav_content start-->
+                    <div class="nav_content">
+                        <!--card_nav_box start-->
+                        <div class="card_nav_box">
+                            <!--mainlist start-->
+                            <ul class="card_sliderbox mainlist">
+                                <!--<li class="active">
+                                    <a href="../fld/index.html">
+                                        <img title="弗莱迪" src="../images/card/img_hero_7000_5000.jpg"/>
+                                        <span class="card_name">弗莱迪</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../zgl/index.html">
+                                        <img title="猪綱烈" src="../images/card/img_hero_7001_5001.jpg"/>
+                                        <span class="card_name">猪綱烈</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../pnc/index.html">
+                                        <img title="匹诺曹" src="../images/card/img_hero_7002_5002.jpg"/>
+                                        <span class="card_name">匹诺曹</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../ybd/index.html">
+                                        <img title="亚巴顿" src="../images/card/img_hero_7003_5003.jpg"/>
+                                        <span class="card_name">亚巴顿</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../nl/index.html">
+                                        <img title="奈丽" src="../images/card/img_hero_7006_5006.jpg"/>
+                                        <span class="card_name">奈丽</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../fn/index.html">
+                                        <img title="菲娜" src="../images/card/img_hero_7008_5008.jpg"/>
+                                        <span class="card_name">菲娜</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../dan/index.html">
+                                        <img title="黛安娜" src="../images/card/img_hero_7009_5009.jpg"/>
+                                        <span class="card_name">黛安娜</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../ntr/index.html">
+                                        <img title="NTR" src="../images/card/img_hero_7011_5011.jpg"/>
+                                        <span class="card_name">NTR</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../ml/index.html">
+                                        <img title="梦露" src="../images/card/img_hero_7012_5012.jpg"/>
+                                        <span class="card_name">梦露</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../js/index.html">
+                                        <img title="杰森" src="../images/card/img_hero_7014_5014.jpg"/>
+                                        <span class="card_name">杰森</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../gem/index.html">
+                                        <img title="格尔曼" src="../images/card/img_hero_7015_5015.jpg"/>
+                                        <span class="card_name">格尔曼</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../dg/index.html">
+                                        <img title="多哥" src="../images/card/img_hero_7016_5016.jpg"/>
+                                        <span class="card_name">多哥</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../bgt/index.html">
+                                        <img title="巴格兔" src="../images/card/img_hero_7017_5017.jpg"/>
+                                        <span class="card_name">巴格兔</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../bn/index.html">
+                                        <img title="本尼" src="../images/card/img_hero_7018_5018.jpg"/>
+                                        <span class="card_name">本尼</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../bbeb/index.html">
+                                        <img title="霸波尔奔" src="../images/card/img_hero_7021_5021.jpg"/>
+                                        <span class="card_name">霸波尔奔</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>
+                                <li>
+                                    <a href="../tls/index.html">
+                                        <img title="特蕾莎" src="../images/card/img_hero_7024_5024.jpg"/>
+                                        <span class="card_name">特蕾莎</span>
+                                        <div class="card_shade"></div>
+                                    </a>                                    
+                                </li>-->
+                            </ul>
+                            <!--mainlist end-->
+                        </div>
+                        <!--card_nav_box end-->
+                        <div class="nav_prev"></div>
+                        <div class="nav_next"></div>
+                     </div> 
+                </div>                   
+                <div class="nav_bg">
+                    <span class="nav_bg_t"></span>
+                    <span class="nav_bg_i" id="navHide"></span>
+                    <span class="nav_bg_b"></span>
+                </div>
+            </div>
+            <!--pic_select_nav end-->               
+        </div>
+        <!--pic_wrap end-->        
+        <!--footer start-->	
+        <footer class="footer">
+        </footer>
+        <!--footer end-->
+        <!--video_popup start-->
+    	<div id="video_box" class="popupbox" role="dialog">
+        	<div id="VideoContent">
+            	暂无视频，敬请期待...
+            	<!--<embed src="http://player.youku.com/player.php/sid/XOTU0MDgxODAw/v.swf" allowFullScreen="true" quality="high" bgcolor="#000000" width="800" height="450" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>-->
+            </div>
+        	<a href="javascript:hidDialogs()" class="pop_close">×</a>
+    	</div>
+        <!--video_popup end-->
+        <input value="1" hidden="" id="heroid" />
+	</body>
+    <script type="text/javascript" src="../../js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.heroInfo.min.js"></script>
+</html>

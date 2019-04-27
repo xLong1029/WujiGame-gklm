@@ -1,0 +1,423 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2016-03-17
+Version:1.0.1
+**************************************/
+body {
+	width:100%;
+	line-height:22px;
+	-webkit-text-size-adjust:none;
+	color:#333333;
+	font-size:14px;
+	font-family:"microsoft yahei","Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:normal;
+	background:#fff;
+}
+html,body {
+	padding:0;
+	margin:0;
+}
+
+div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    /*font-size:100%;*/
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+/* =============================================================================
+    1. ul
+============================================================================= */
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul, menu, dir {
+	display: block;
+}
+
+/* =============================================================================
+    2. a
+============================================================================= */
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+	outline: none;
+	text-decoration: none;
+    background: transparent;
+	vertical-align: baseline;
+	color:#333333;
+}
+
+/* =============================================================================
+    3. img
+============================================================================= */
+img {
+    border: 0;
+	height: auto;
+	max-width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+
+/* =============================================================================
+    4. input
+============================================================================= */
+input:not([type]), input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"],input[type="button"], input[type="submit"]{
+	vertical-align:middle;
+	font-family: "microsoft yahei","Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:#FFF;
+}
+
+input:not([type]), input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"]{
+	height:38px;
+	border: solid 1px #C3C3C3;
+	text-indent:10px;
+}
+
+input[type="button"], input[type="submit"]{
+	border:0;
+	height:40px;
+	color:#FFF;
+	background:#f9ac26;
+	font-size:16px;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	}
+/* =============================================================================
+    5. float
+============================================================================= */
+.fl{
+	float:left;}
+	
+.fr{
+	float:right;
+	}
+	
+/* =============================================================================
+    6. container
+============================================================================= */
+.phone_container{
+	margin-left:10px;
+	margin-right:10px;
+	}
+
+.wallpaper{
+	width:100%;
+	margin:0px auto;
+	}
+	
+.full{
+	float:left;
+	width:100%;
+	}
+/* =============================================================================
+    7. font-color
+============================================================================= */
+.f_red{
+	color: #CF0606;
+	}
+	
+.d_line {
+	height: 12px;
+	border-bottom: 1px solid #1F2B3E;
+	margin-bottom: 12px;
+	display: inline-block;
+	}
+	
+.btn_close{
+	display:block;
+	height:40px;
+	color:#FFF;
+	background:#A90A0A;
+	font-size:16px;
+	line-height:40px;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	width:175px;
+	margin:0 auto;
+	margin-top:20px;
+	}
+/**************************************/	
+.phone_share{
+	text-align:center;
+	height:50px;
+	line-height:43px;
+	padding:15px 0;
+	background:#0D1527;
+	color:#fff;
+	}
+.phone_share a{
+	display:inline-block;
+	width:43px;
+	height:43px;
+	text-indent: -9999px;
+	margin: 7px;
+	background:url(../images/download_2.png) no-repeat;
+	background-size: 161px 108px;
+	}	
+
+.phone_share #share_qzone{
+	background-position:0px -26px;
+	}	
+	
+.phone_share #share_sina{
+	background-position:-43px -26px;
+	}
+	
+.phone_share #share_tencent{
+	background-position:-87px -26px;
+	}
+/**************************************/
+.footer{
+	padding-bottom:20px;
+	padding-top:8px;
+	background:#0D1527;
+	}
+	
+.footer > .logo > .logoimg{
+	display: block;
+	width:147px;
+	height:33px;
+	margin:0px auto;
+	background:url(../images/logo2.png) no-repeat;
+	background-size:147px 33px;
+	}
+	
+.footer > .logo > .d_line {
+	width: 38%;
+	}
+	
+.footer .copyright{
+	text-align:center;
+	margin-top:10px;
+	color:#C3C3C3;
+	}
+	
+@media (max-width: 767px){
+	.footer > .logo > .d_line {
+		width: 35%;
+	}
+}
+
+@media (max-width: 640px){
+	.footer > .logo > .d_line {
+		width: 30%;
+	}
+	
+	.data_cont ul li{
+		width:33.33%;
+	}
+	
+	.data_cont li:nth-child(3n+1), .data_cont li:nth-child(3n+2){
+		border-right:1px solid #DBE8FB;
+		margin-left:-1px;
+	}
+}
+
+@media (max-width: 480px){
+	.footer > .logo > .d_line {
+		width: 25%;
+	}
+	
+	.data_cont ul li{
+		width:50%;
+	}
+	
+	.data_cont li:nth-child(2n+1){
+		border-right:1px solid #DBE8FB;
+		margin-left:-1px;
+	}
+}
+
+@media (min-width:375px){
+	.top_bg .video_btn{
+		width:68px;
+		height:45px;
+		top:67%;
+	}
+}
+
+@media (min-width:414px){
+	.top_bg .video_btn{
+		width:72px;
+		height:48px;
+	}
+}
+
+@media (min-width: 480px){
+	.download {
+		height:75px;
+	}
+	
+	.download img{
+		width:70px;
+		height:70px;
+		}
+	
+	.header h1 {
+		font-size:18px;
+    	left: 100px;
+	}
+	
+	.download h2 {
+		font-size:14px;
+		left: 100px;
+	}
+	
+	.download .down-btn {
+		padding:13px 0;
+		font-size:16px;
+	}
+	
+	.top_bg .video_btn{
+		width:85px;
+		height:55px;
+	}
+}
+
+@media (min-width: 640px){
+	.download {
+		height:109px;
+	}
+	
+	.download img{
+		width:80px;
+		height:80px;
+		left:20px;
+		top: 15px;
+		}
+	
+	.download h1 {
+		font-size:24px;
+    	left: 120px;
+	}
+	
+	.download h2 {
+		font-size:18px;
+		left: 120px;
+	}
+	
+	.download .down-btn {
+		font-size: 22px;
+	}
+	.hero_cont .swipe_con a {
+		width:22%;
+    	margin:0 5% 3%;
+	}
+	.top_bg .video_btn{
+		width:110px;
+		height:70px;
+		top:67.5%;
+	}
+}
+
+@media (min-width: 767px){
+	body{
+		background:#1E2531;
+		font-size:18px;
+		line-height:38px;
+	}
+	
+	.wallpaper{
+		width:768px;
+	}
+	
+	.download{
+		width:768px;
+	}
+	
+	.header{
+		width:768px;
+		height:60px;
+	}
+	
+	.header .title{
+		line-height:60px;
+		font-size:20px;
+	}
+	
+	.header a {
+		padding: 16px 18px;
+	}
+	
+	.header .down-btn {
+		padding:13px 0;
+		font-size: 22px;
+	}
+	
+	.inner_container{
+		margin-top:60px;
+		}
+	
+	#top_down{
+		width:768px;
+		}
+		
+	.hero_cont a > span{
+		padding:10px;
+		}
+		
+	.phone_down a{
+		padding:8px 0;
+		margin-top: 15px;
+    	margin-bottom: 15px;
+		font-size:18px;
+	}
+	
+	.btn_android > span > i, .btn_gift > span > i {
+		margin-top: 6px;
+	}
+	.news_title, .hero_title, .service_title{
+		height:50px;
+		line-height:50px;		
+	}
+	
+	.news_title > span, .hero_title > span, .service_title > span {
+		font-size: 18px;
+	}
+	
+	.service_title{
+		font-size: 18px;
+	}
+	
+	.slidesjs-pagination{
+		height:40px;
+	}
+	
+	.top_bg .video_btn{
+		width:139px;
+		height:86px;
+		top:67%;
+	}
+}

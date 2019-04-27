@@ -1,0 +1,238 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	}
+body {
+	width:100%;
+	line-height:22px;
+	-webkit-text-size-adjust:none;
+	color:#333132;
+	font-size:14px;
+	font-family:"microsoft yahei","Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:normal;
+	background:url(../images/inner_bg.jpg) no-repeat center top #000;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+	outline: none;
+	text-decoration: none;
+    background: transparent;
+	vertical-align: baseline;
+	color:#fff;
+}
+
+a:hover{
+	color:#7EA5E0;
+	}
+/**************************************/
+.logo_spr{
+	float:left;
+	background:url(../images/logo.png) no-repeat;
+	}
+		
+.header{
+	width:100%;
+	height:50px;
+	position:relative;
+	}
+	
+.head_container{
+	width:1000px;
+	margin:0px auto;
+	position:relative;
+	z-index:10;
+	}
+	
+.header_game{
+	width: 294px;
+	height: 67px;
+	position:absolute;
+	top:10px;
+	left:0;
+	z-index: 10;
+	background-position: 0 -55px;
+	}
+	
+.header_nav{
+	height:50px;
+	position: absolute;
+	right:0;
+	height: 50px;
+	z-index: 10;
+	}
+
+.header_nav > a{
+	float:left;
+	display:block;
+	padding:12px;
+	margin:0 10px;
+	font-size:16px;
+	}
+	
+.header_nav > a:last-child{
+	margin-right:0;
+	padding-right:0;
+	}
+	
+.header_bg{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:5;
+	width:100%;
+	height:50px;
+	background:#000;
+	filter: alpha(opacity=40);
+	-moz-opacity: 0.4;
+	opacity: 0.4;
+	}
+/**************************************/
+.section_wrapper{
+	min-width:1000px;
+	margin-top:140px;
+	margin-bottom:100px;
+	}
+
+.section_wrapper, .first_wrapper_top, .wrapper_center, .wrapper_bottom, .wrapper_center_content, .content_border{
+	position:relative;
+	}
+
+.first_wrapper_top{
+	z-index: 1;
+	display: block;
+	width: 100%;
+	background: transparent url(../images/frame-sprite.png) no-repeat 50% -249px;
+	top: 0;
+	left: 0;
+	height: 242px;
+	}
+	
+.first_wrapper_top:before{
+	content: "";
+	width: 100%;
+	height: 260px;
+	position: absolute;
+	top: -21px;
+	left: 0;
+	background: transparent url(../images/frame-sprite.png) no-repeat 50% 0;
+	}
+	
+.wrapper_center{
+	margin:-225px auto -219px auto;
+	background: transparent url(../images/frame-center.png) repeat-y 50% 0;
+	min-height:440px;
+	}
+	
+.wrapper_bottom{
+	height:240px;
+	left:0;
+	background: transparent url(../images/frame-sprite.png) repeat-y 50% -748px;
+	}
+
+.wrapper_center_content{
+	width:980px;
+	padding:20px;
+	margin:0px auto;
+	z-index:1;
+	overflow: hidden;
+	}
+	
+.content_border{
+	box-sizing: border-box;
+	padding: 4px;
+	background-color: transparent;
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
+	background-color: rgba(0,0,0,0.1);
+	border-left: 1px solid rgba(84,84,84,0.3);
+	border-top: 1px solid rgba(84,84,84,0.3);
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+	border-right: 1px solid rgba(255,255,255,0.6);
+  }
+  
+.content_border > *{
+	position:relative;
+	}
+	
+.content_view{
+	box-shadow: 0px 1px 2px #868686;
+	-webkit-box-shadow: 0px 1px 2px #868686;
+	-moz-box-shadow: 0px 1px 2px #868686;
+	background:#f2f2f2;
+  }
+/**************************************/	
+.error{
+	height:395px;
+	text-align:center;
+	font-size:18px;
+	padding:110px 0;
+	text-shadow: 1px 1px 0 white;
+	}
+	
+.error div{
+	font-size:100px;
+	line-height:100px;
+	}
+/**************************************/
+.footer{
+	margin-top:45px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.footer_info{
+	margin-top:35px;
+	margin-left:auto;
+	margin-right:auto;
+	width:795px;
+	height:66px;
+	}
+	
+.footer_info > .in_left > span{
+	float:left;
+	margin-right:45px;
+	}
+	
+.footer_info > .in_center{
+	float:left;
+	margin-left:5px;
+	}
+	
+.footer_info > .in_center > .logo_wuji{
+	margin-top:10px;
+	width:240px;
+	height:55px;
+	background-position:0 0;
+	}
+	
+.footer_info > .in_right{
+	color:#fff;
+	float:right;
+	}
+	
+.copyright{
+	width:100%;
+	margin:35px auto;
+	font-size:14px;
+	text-align:center;
+	color:#b0b0b0;
+	}
+	
+.copyright > .in_left > a {
+	width:268px;
+	height:60px;
+	float:left;
+	background:url(../images/logo_wuji.gif) no-repeat;
+	}
+	
+.copyright .in_right{
+	float:right;
+	}
+	
+.in_right > span > a {
+	margin:0 12px;
+	}

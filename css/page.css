@@ -1,0 +1,70 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2015-06-24
+Version:1.0.0
+**************************************/
+.page{
+	width:100%;
+	margin-top:15px;
+	height:24px;
+	clear: both;
+	}
+
+.page_list{
+	float:right;
+	/*width:370px;*/
+	height:24px;
+	}
+	
+.page_list a, .page_list span{
+	width:25px;
+	height:25px;
+	text-align:center;
+	line-height:25px;
+	float:left;
+	font-size: 10px;
+	color: #333132;
+	text-shadow: 1px 1px 0 white;
+	margin-right:10px;
+	}
+	
+.page_list a{
+	border: 1px solid #c0c0c0;
+	background: #f3f4f4;
+	}
+	
+.page_list a:last-child{
+	margin-right:0;
+	}
+	
+.page_list a.icon_page{
+	width:9px;
+	height:12px;
+	float:left;
+	border:0;
+	padding:10px;
+	background:url(../images/icons.png) no-repeat;
+	margin-top:3px;
+	}
+	
+.page_list a:first-child{
+	background-position:-208px -134px;
+	}
+	
+.page_list a:last-child{
+	background-position:-226px -134px;
+	}
+	
+.page_list a.disabled:first-child{
+	background-position:-208px -115px;
+	}
+
+.page_list a.disabled:last-child{
+	background-position:-226px -115px;
+	}
+
+.page_list .active {
+	background: #e4e4e4;
+	color: #7a7979;
+	}

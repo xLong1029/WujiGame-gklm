@@ -1,0 +1,41 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2015-06-24
+Version:1.0.0
+**************************************/
+.hero_type{
+	background:#1d212d url(../images/title_bg.png) repeat-x;
+	margin: 0px 0 0 0;
+	-webkit-box-shadow: 0px 1px 2px #323232;
+	-moz-box-shadow: 0px 1px 2px #323232;
+	box-shadow: 0px 1px 2px #323232;
+	color: #DFE1E1;
+	font-size:22px;
+	height:58px;
+	font-weight:normal;
+	}
+.hero_type a {
+	display:block;
+	float:left;
+	line-height:25px;
+	overflow:hidden;
+	text-align:center;
+	font-size:12px;
+	cursor:pointer;
+	position:relative;
+	padding: 14px 20px;
+	color: #DFE1E1;
+	height:58px;
+  	font-size: 20px;
+}
+.hero_type a.current {
+	color:#fff;
+	text-shadow: 1px 1px 0 rgb(95, 110, 132);
+	background:url(../images/triangle-white.png) no-repeat 50% 100%;
+}
+
+.hero_content{
+	position:relative;
+	overflow:hidden;
+}
